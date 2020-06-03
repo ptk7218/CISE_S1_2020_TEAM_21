@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Adding New Elements</title>
+
+<style type="text/css">
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+}
+.new {
+	background-color:#ffcccc;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+h3 {
+    color: white;
+    background-color: rgb(103, 105, 100);
+    padding: 5px;
+    border-radius: 5px;
+    border: yellow solid 1px;
+    align-content: center;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+}
+
+</style>
+
+<script type="text/javascript" src="searchpage.js"></script> 
+
+</head>
+
+<body onload="makeTable()">
+	<script>
+        for(var i = 1; i <= 15; i++) {
+            document.write("Author: " + i + ", ");
+		}
+		
+		
+        function changeBackgroundColor(color) {
+            document.bgColor = color;
+
+        }
+    </script>
+    <h3>You would able to choose to different background colour</h3>
+    <button class="button" onclick="changeBackgroundColor('blue')">Blue</button>
+    <button class="button" onclick="changeBackgroundColor('red')">Red</button>
+    <button class="button" onclick="changeBackgroundColor('purple')">Purple</button>
+    <button class="button" onclick="changeBackgroundColor('black')">Black</button>
+    <button class="button" onclick="changeBackgroundColor('white')">White</button>
+    <button class="button" onclick="changeBackgroundColor('WHITESMOKE')">Whitesmoke</button>
+    <button class="button" onclick="changeBackgroundColor('green')">Green</button>
+    <button class="button" onclick="changeBackgroundColor('yellow')">Yellow</button>
+
+
+
+<h2 style="color: yellowgreen;">Search Software Engineering Article:</h2><br>
+ <p>ArticleId, Title, Website Address.</p>
+
+<table id="tbl" border="1"></table>
+
+<br>
+<form>
+<input class="button" type="button" value=" Author: Jhon" onclick="appendRow1()"><br>
+<input class="button" type="button" value=" Author: Alex" onclick="appendRow2()"><br>
+<input class="button" type="button" value=" Author: Jennifer" onclick="appendRow3()"><br>
+<input class="button" type="button" value=" Author: SMITH" onclick="appendRow4()"><br>
+<input class="button" type="button" value=" Author: Robert" onclick="appendRow5()"><br>
+<input class="button" type="button" value=" Author: James" onclick="appendRow6()"><br>
+<input class="button" type="button" value=" Author: All of Articles" onclick="appendRow10()"><br>
+
+</form>
+
+
+<button class="button" onclick="getInput()">Click for split the sentence.</button>
+    <script>
+        function getInput() {
+            var input = prompt("Enter a string consisting of several words separated by single spaces.").split(" ");
+
+            console.log(input)
+            input.forEach(element => {
+                document.writeln(element + "<br />");
+            });
+        }
+    </script>
+
+</body>
+</html>
