@@ -24,7 +24,7 @@
     
     
             <p class = "intro">
-                Please put the SEER short introduction here!!! Long introduction will be in About.html page
+                SEER Search website will support developers' decisions about the use of different parctives based on evidence and experience rather than largely unsubstatiate claims.
             </p>
             <br>
             
