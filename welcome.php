@@ -78,7 +78,7 @@ if(mysqli_num_rows($result) > 0)
                         <input type="submit" value = "GO!" class="btn btn-big">
                     </form>
                     <br>
-                    <p><a href = "#">More Search option</a></p>
+                    <p><a href = "advancesearch.php">More Search option</a></p>
                 
                 </div>
 
