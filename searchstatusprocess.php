@@ -7,7 +7,19 @@ require_once('connection.php');
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href = "css/style1.css">
+     <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+
+        <!-- Font Awesome kit's code -->
+        <script src="https://kit.fontawesome.com/4e6ccfc44a.js" crossorigin="anonymous"></script> 
+       
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Lora&display=swap" rel="stylesheet">
+
+        <!-- Custom Styling -->
+        <link rel="stylesheet" type="text/css" href = "css/style1.css">
+        <title> Search Page </title>
 </head>
 <body>
 <h1>Search</h1>
