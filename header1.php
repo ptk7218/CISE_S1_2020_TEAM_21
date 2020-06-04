@@ -11,7 +11,7 @@ $email = $_SESSION['email'];
 <nav class="navbar navbar-default">
 	<div class="container-fluid">
 		<div class="navbar-header">
-			<a href="#" class="navbar-brand">SEERSearch</a>
+			<a href="welcome.php" class="navbar-brand">SEERSearch</a>
 		</div>
 		<div class="dropdown navbar-right" id="right">
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><?php echo $email;?>
