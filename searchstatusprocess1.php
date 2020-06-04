@@ -31,7 +31,7 @@ require_once('connection.php');
     
     	$search = $_GET['status'];
 
-    	$sql = " SELECT * FROM article WHERE a_title LIKE '$search%' ";
+    	$sql = " SELECT * FROM article WHERE a_title LIKE '$status%' ";
 
     	$result = mysqli_query($conn, $sql);
     	
@@ -41,11 +41,9 @@ require_once('connection.php');
     	else {
     		while($row = mysqli_fetch_assoc($result)){
               echo "<div class='article-box'>
-                <h3>".$row['a_title']."</h3>
-                <p>".$row['a_text']."</p>
-                <p>".$row['a_date']."</p>
-                <p>".$row['a_author']."</p>
-
+                <h3>".$row['a_method']."</h3>
+                <p>".$row['a_author'].".,& ".$row['a_author2'].". ".$row['a_title'].". ".$row['a_journal']. ", ".
+                $row['a_volume']."(".$row['a_id']."), ".$row['a_pages'].". ".$row['a_link']. "</p>
              </div>";
     	}
      mysqli_free_result($result);
