@@ -14,7 +14,7 @@
         <!-- Custom Styling -->
         <link rel="stylesheet" type="text/css" href = "css/style1.css">
 
-        <title>About</title>  
+        <title>SEERSearch Developement Team</title>  
     </head>
 
     
@@ -24,20 +24,21 @@
     <h1>Developement Team</h1> <br>
 
     
-    <img src = "img/pic.png" alt = "Profile pic" width = "150" height = "150"> <br>
-    <p1 style="font-size:30px" >Shixuan Wang (Scrum Master)</p1> <br>
+    <img src = "img/Shixuan.png" alt = "Profile pic" width = "300" height = "300"> &nbsp&nbsp&nbsp&nbsp 
     
-    <img src = "img/pic.png" alt = "Profile pic" width = "150" height = "150"> <br>
-    <p2 style="font-size:30px">Pretesh Soma (Team Programmer)</p2> <br>
     
-    <img src = "img/pic.png" alt = "Profile pic" width = "150" height = "150"> <br>
-    <p3 style="font-size:30px">Shubham Trivedi (Team Programmer)</p3> <br>
+    <img src = "img/PreteshSoma.png" alt = "Profile pic" width = "300" height = "300"> <br>
+    <p1 style="font-size:30px" >Shixuan Wang </p1> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <p1 style="font-size:30px" >Pretesh Soma </p1> <br>
     
-    <img src = "img/pic.png" alt = "Profile pic" width = "150" height = "150"> <br>
-    <p4 style="font-size:30px">Stanley Zhu (Team Programmer)</p4> <br>
-    <p class ="developer team">
-        
-    </p>
+    <img src = "img/shubham.png" alt = "Profile pic" width = "300" height = "300"> &nbsp&nbsp&nbsp&nbsp
+       
+    <img src = "img/pic.png" alt = "Profile pic" width = "300" height = "300"> <br>
+    <p1 style="font-size:30px" >Shubham Trivedi </p1> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <p1 style="font-size:30px" >Stanly Zhu </p1>  <br>  
+    
  <?php include("includes/footer.php"); ?>
 
 </body>
