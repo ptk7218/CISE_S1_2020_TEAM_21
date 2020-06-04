@@ -1,3 +1,4 @@
+<!-- search function at main page -->
 <?php 
 include_once('link.php');
 include_once('includes/header2.php');
@@ -7,7 +8,7 @@ require_once('connection.php');
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href = "css/style.css">
+    <link rel="stylesheet" type="text/css" href = "css/style1.css">
 </head>
 <body>
 <h1>Search</h1>
