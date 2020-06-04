@@ -20,7 +20,8 @@
                   </a>
                 <ul>
                         <li><a href="registration.php">as user</a></li>
-                        <li><a href="http://" >as admin</a></li>
+                        <li><a href="registrationadmin.php" >as admin</a></li>
+                        <li><a href="registrationmoder.php" >as moderator</a></li>
                 </ul>
                 </li>
                 <li>
@@ -31,7 +32,8 @@
                     </a>
                     <ul>
                         <li><a href="login.php">as user</a></li>
-                        <li><a href="http://" >as admin</a></li>
+                        <li><a href="loginadmin.php" >as admin</a></li>
+                        <li><a href="lgoinmoder.php" >as moderator</a></li>
                     </ul>
                 </li>
 
