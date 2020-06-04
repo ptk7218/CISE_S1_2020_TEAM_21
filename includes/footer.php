@@ -22,11 +22,11 @@
                 <h2>Quick Links </h2>
                 <br>
                 <ul>
-                    <a href="#"><li>SEER Help</li></a>
-                    <a href="#"><li>Developer Team</li></a>
-                    <a href="#"><li>Privacy Policy</li></a>
-                    <a href="#"><li>Service</li></a>
-                    <a href="#"><li>Subscribe</li></a>
+                    <a href="help.php"><li>SEER Help</li></a>
+                    <a href="team.php"><li>Developer Team</li></a>
+                    <a href="policy.php"><li>Privacy Policy</li></a>
+                    <a href="service.php"><li>Service</li></a>
+                    <a href="subscribe.php"><li>Subscribe</li></a>
                 </ul>
 
 

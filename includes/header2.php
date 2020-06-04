@@ -1,7 +1,8 @@
 <header>
             <!-- logo -->
             <div class ="logo">
-                <h1 class = "logo-text"><span>SEER</span>Search</h1>
+            <li><a href="index.php"><img src = "img/SEER.png" alt = "Profile pic" width = "160" height = "85"></a></li>
+            
             </div>
 
             <!-- navigation bar-->
@@ -10,11 +11,11 @@
             <ul class= "nav">
               
                 <li><a href="about.php">About</a></li>
-                <li><a href="http://www.google.co.nz">Google</a></li>
+                
 
                 <li>
                     <a href="http://">
-                      registration
+                      Registration
                       <i class="fas fa-angle-down"></i>
                   </a>
                 <ul>
