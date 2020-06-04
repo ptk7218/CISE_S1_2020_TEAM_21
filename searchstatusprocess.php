@@ -1,6 +1,6 @@
 <?php 
 include_once('link.php');
-include_once('header1.php');
+include_once('includes/header2.php');
 require_once('connection.php');
 ?>
 
