@@ -23,7 +23,7 @@
 
     <h1>SEER Help</h1>
     <p class ="help">
-
+        hi
     </p>
  <?php include("includes/footer.php"); ?>
 
