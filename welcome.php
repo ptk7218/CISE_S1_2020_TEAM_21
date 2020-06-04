@@ -19,6 +19,7 @@ if(mysqli_num_rows($result) > 0)
 }
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
     <!-- head -->
@@ -72,10 +73,12 @@ if(mysqli_num_rows($result) > 0)
 
                 <div class="section search">
                     <h2 class="section-title">Search anything!</h2>
-                    <form action="index.html" method="post">
-                        <input type="text" name="search-term" class="text-input" placeholder="Search...">
-
+                    <form action="searchstatusprocess1.php" method="GET">
+                        <input type="text" name="status" id="status" placeholder="Search..."> 
+                        <input type="submit" value = "GO!" class="btn btn-big">
                     </form>
+                    <br>
+                    <p><a href = "#">More Search option</a></p>
                 
                 </div>
 
@@ -84,6 +87,7 @@ if(mysqli_num_rows($result) > 0)
                     <ul>
                         <li><a href ="#">SE Method</a></li>
                         <li><a href ="#">SE Methodology</a></li>
+                        <li><a href ="#">Post an Article</a></li>
 
                     </ul>
                 </div>
