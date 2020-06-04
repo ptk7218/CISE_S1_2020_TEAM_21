@@ -59,9 +59,10 @@
 
                 <div class="section search">
                     <h2 class="section-title">Search anything!</h2>
-                    <form action="index.html" method="post">
+                    <form action="searchstatusprocess.php" method="post">
                         <input type="text" name="search-term" class="text-input" placeholder="Search...">
-
+                        <br>
+                        <button type="submit" class="btn btn-big">Go</button>
                     </form>
                 
                 </div>
