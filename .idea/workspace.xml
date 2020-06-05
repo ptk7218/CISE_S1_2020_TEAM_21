@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ff5adbb-09ae-484a-aa35-55077dca5a03" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
+  <component name="ProjectId" id="1ctSvg1YF7u5dI4UNj0YzMdMZlr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" singleton="false">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+    <configuration name="localunittest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" singleton="false">
+      <TestRunner />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ff5adbb-09ae-484a-aa35-55077dca5a03" name="默认更改列表" comment="" />
+      <created>1591346628588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591346628588</updated>
+      <workItem from="1591346631205" duration="1073000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1496" y="216" key="#CLI_Interpreters" timestamp="1591346897910">
+      <screen x="0" y="23" width="2560" height="1005" />
+    </state>
+    <state x="1496" y="216" key="#CLI_Interpreters/0.23.2560.1005@0.23.2560.1005" timestamp="1591346897910" />
+    <state x="1600" y="204" key="#PHP" timestamp="1591346900669">
+      <screen x="0" y="23" width="2560" height="1005" />
+    </state>
+    <state x="1600" y="204" key="#PHP/0.23.2560.1005@0.23.2560.1005" timestamp="1591346900669" />
+    <state x="1495" y="216" key="#Test_Frameworks" timestamp="1591347103895">
+      <screen x="0" y="23" width="2560" height="1005" />
+    </state>
+    <state x="1495" y="216" key="#Test_Frameworks/0.23.2560.1005@0.23.2560.1005" timestamp="1591347103895" />
+    <state x="1372" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591347105782">
+      <screen x="0" y="23" width="2560" height="1005" />
+    </state>
+    <state x="1372" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1005@0.23.2560.1005" timestamp="1591347105782" />
+    <state x="1303" y="161" key="#localunittest" timestamp="1591347354390">
+      <screen x="0" y="23" width="2560" height="1005" />
+    </state>
+    <state x="1303" y="161" key="#localunittest/0.23.2560.1005@0.23.2560.1005" timestamp="1591347354390" />
+  </component>
+</project>
