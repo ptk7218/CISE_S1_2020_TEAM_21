@@ -51,24 +51,8 @@ if(mysqli_num_rows($result) > 0)
  <div class="content clearfix">
             
             <!-- Main Content -->
-            <div class="main-content">
-               <h1 class="recent-post-title">Recent Post</h1>
-                 <div class ="post">
-                     <div class="post-preview">
-                         <h2><a href ="single.html">SE Method</a> </h2>
-                         <i class="far fa-user"> Shixuan Wang</i>
-                         &nbsp;
-                         <i class = "far calendar">May 20,2020</i>
-                         <p class="preview-text">
-                         asdlfas;ldfa;sldfjlkadsf;j
-                         </p>
-                         <a href = "" class="btn read-more">Read More</a>
-                     </div>
-                 </div>             
+              <?php include('updateInfo.php'); ?>
   
-
-            </div>
-         
             <div class="sidebar">
 
                 <div class="section search">

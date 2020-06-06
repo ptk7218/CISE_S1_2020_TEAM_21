@@ -51,7 +51,7 @@ if(mysqli_num_rows($result) > 0)
  <div class="content clearfix">
             
             <!-- Main Content -->
-           <?php include('updateInfo.php'); ?>
+            <?php include('updateInfo.php'); ?>
          
             <div class="sidebar">
 
