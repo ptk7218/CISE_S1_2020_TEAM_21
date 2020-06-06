@@ -63,7 +63,7 @@ require_once('connection.php');
 					<td><?php echo $row['a_volume'];?></td>
 					<td><?php echo $row['a_link'];?></td>
 					<td>
-						<input type = "checkbox" name = "delete" value="<?php echo $row['a_id'];?>" required>
+						<input type = "text" name = "delete" value="<?php echo $row['a_id'];?>" required>
 					</td>
 					<td>
 						<input type = "submit" name = "submitDeleteBtn" value = "delete" class="btn btn-big">
