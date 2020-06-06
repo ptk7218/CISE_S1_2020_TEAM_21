@@ -22,10 +22,10 @@ Into this file, we create a layout for user registration page.
 
 <body>
 <?php
-include_once('include/header2.php');
+include_once('includes/header2.php');
 
 ?>
-
+<center>
 <div id="frmRegistration">
 <form class="form-horizontal" action="registration_code.php" method="POST">
 	<h1>User Registration</h1>
@@ -76,6 +76,8 @@ include_once('include/header2.php');
   </div>
 </form>
 </div>
+
+</center>
 
 <?php include("includes/footer.php"); ?>
 
