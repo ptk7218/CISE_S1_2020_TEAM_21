@@ -22,6 +22,7 @@
                         <li><a href="registration.php">as user</a></li>
                         <li><a href="registeradmin.php" >as admin</a></li>
                         <li><a href="registermoder.php" >as moderator</a></li>
+                        <li><a href="registeranal.php">as Analyst</a></li>
                 </ul>
                 </li>
                 <li>
@@ -34,6 +35,7 @@
                         <li><a href="login.php">as user</a></li>
                         <li><a href="loginadmin.php" >as admin</a></li>
                         <li><a href="loginmoder.php">as moderator</a></li>
+                        <li><a href="loginanal.php">as Analyst</a></li>
                     </ul>
                 </li>
 
