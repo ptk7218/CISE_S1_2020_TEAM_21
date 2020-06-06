@@ -3,7 +3,7 @@ Into this file, we create a layout for login page.
 -->
 
 <?php
-include_once('header.php');
+include_once('include/header2.php');
 include_once('link.php');
 
 ?>

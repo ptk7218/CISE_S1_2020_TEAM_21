@@ -6,8 +6,7 @@ include_once('link.php');
 
 ?>
 <div class ="logo">
-            <a href="index.php"><img src = "img/SEER.png" alt = "Profile pic" width = "135" height = "67"></a>
-            
+            <img src = "img/SEER.png" alt = "Profile pic" width = "135" height = "67">
 </div>
 
 <nav class="navbar navbar-default">

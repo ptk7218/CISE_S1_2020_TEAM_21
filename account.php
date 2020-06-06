@@ -43,8 +43,8 @@ include_once('header1.php');
           		<td><?php echo $lname; ?></td>
           	</tr>
           	<tr>
-          		<td>Gender</td>
-          		<td><?php echo $gender; ?></td>
+          		<td>Affiliation</td>
+          		<td><?php echo $radio; ?></td>
           	</tr>
           	<tr>
           		<td>Email</td>
