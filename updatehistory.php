@@ -46,5 +46,5 @@
                          4. add different management UI (depend on different roles)</p>
 
 </body>
-<?php include("includes/header2.php"); ?>       
+<?php include("includes/footer.php"); ?>       
 </html>
