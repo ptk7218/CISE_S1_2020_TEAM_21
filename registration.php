@@ -1,6 +1,8 @@
 <!--
 Into this file, we create a layout for user registration page.
 -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
         <meta charset = "UTF-8">
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
@@ -18,6 +20,7 @@ Into this file, we create a layout for user registration page.
         <title>SEER Search</title>  
     </head>
 
+<body>
 <?php
 include_once('include/header2.php');
 
@@ -73,3 +76,8 @@ include_once('include/header2.php');
   </div>
 </form>
 </div>
+
+<?php include("includes/footer.php"); ?>
+
+</body>
+</html>
