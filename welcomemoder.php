@@ -69,9 +69,9 @@ if(mysqli_num_rows($result) > 0)
                 <div class="section topics">
                     <h2 class = "section-title">SEER moderator management</h2>
                     <ul>
-                        <li><a href ="#">Post an Article</a></li>
-                        <li><a href ="#">manage Article queue</a></li>
-                        <li><a href ="#">My profile</a></li>
+                        <li><a href ="post.php">Post an Article</a></li>
+                        <li><a href ="moderdelete.php">manage Article queue</a></li>
+                        <li><a href ="account.php">My profile</a></li>
 
 
                     </ul>

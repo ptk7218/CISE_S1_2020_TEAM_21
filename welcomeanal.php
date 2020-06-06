@@ -69,6 +69,7 @@ if(mysqli_num_rows($result) > 0)
                 <div class="section topics">
                     <h2 class = "section-title">Analyst Management</h2>
                     <ul>
+                    <li><a href ="post.php">Post Article</a></li>
                         <li><a href ="account.php">My Profile</a></li>
                         <li><a href ="#">Manage Article</a></li>
 
