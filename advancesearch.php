@@ -25,6 +25,7 @@ require_once('connection.php');
     </head>
 		
 </head>
+
 <center>
     <h1> Advance Search </h1>
     <br>
