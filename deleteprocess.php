@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['delete'])){
+if(isset($_POST['submitDeleteBtn'])){
     $key = $_POST['keyToDelete'];
 
     $sql = "SELECT * from article where a_id = '$key'";
