@@ -23,7 +23,7 @@
 
     <h1>Subscribe</h1>
     <p class ="Subscribe">
-        
+     To recieve more information and news related to SEER Search please subscribe to our newsletter by emailing info@autuni.ac.nz  
     </p>
  <?php include("includes/footer.php"); ?>
 

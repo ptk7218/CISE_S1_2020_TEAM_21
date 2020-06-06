@@ -23,7 +23,8 @@
 
     <h1>SEER Help</h1>
     <p class ="help">
-        hi
+    If you need more information about SEER Search please contact us by phone at 0800 12341234
+    or send us an email at info@autuni.ac.nz
     </p>
  <?php include("includes/footer.php"); ?>
 
