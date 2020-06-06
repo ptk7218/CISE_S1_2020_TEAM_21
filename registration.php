@@ -25,6 +25,7 @@ Into this file, we create a layout for user registration page.
 include_once('includes/header2.php');
 
 ?>
+<br><br><br>
 <center>
 <div id="frmRegistration">
 <form class="form-horizontal" action="registration_code.php" method="POST">

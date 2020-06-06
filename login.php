@@ -21,8 +21,10 @@ Into this file, we create a layout for login page.
     </head>
 <body>
 <?php
-include_once('include/header2.php');
+include_once('includes/header2.php');
 ?>
+
+<br><br><br>
 <center>
 <div id="frmRegistration">
 <form class="form-horizontal" method="POST" action="login_code.php">
