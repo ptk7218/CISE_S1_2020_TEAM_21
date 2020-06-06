@@ -34,12 +34,12 @@ require_once('connection.php');
             }
     	else {
     		while($row = mysqli_fetch_assoc($result)){
-			  echo "<form action='' method='POST' role = 'form'>";
+			  echo "<form action='deleteprocess.php' method='POST' role = 'form'>";
               echo "<h3>".$row['a_method']."</h3>
                 <p>".$row['a_author'].".,& ".$row['a_author2'].". (".$row['a_year']."). ".$row['a_title'].". ".$row['a_journal']. ", ".
                 $row['a_volume']."(".$row['a_id']."), ".$row['a_pages'].". ".$row['a_link']. "</p>
 			 </div>";
-			 echo "<input type = 'checkbox' name = 'keyToDelete' value=" .$row['id']. "required>" ;
+			 echo "<input type = 'checkbox' name = 'keyToDelete' value=" .$row['a_id']. "required>" ;
 			 echo "<input type = 'submit' name = 'delete' value = 'delete' class='btn btn-big'>";
 			 echo "</form>";
     	}
