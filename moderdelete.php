@@ -40,7 +40,7 @@ require_once('connection.php');
                 $row['a_volume']."(".$row['a_id']."), ".$row['a_pages'].". ".$row['a_link']. "</p>
 			 </div>";
 			 echo "<input type = 'checkbox' name = 'keyToDelete' value=" .$row['id']. "required>" ;
-			 echo "<input type = 'submit' name = 'submitDeleteBtn' class='btn btn-big'>";
+			 echo "<input type = 'submit' name = 'delete' class='btn btn-big'>";
 			 echo "</form>";
     	}
      mysqli_free_result($result);
