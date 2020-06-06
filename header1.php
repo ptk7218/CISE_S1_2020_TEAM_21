@@ -12,14 +12,14 @@ $radio = $_SESSION['radio'];
 $email = $_SESSION['email'];
 ?>
 <div class ="logo">
-            <a href="welcome.php"><img src = "img/SEER.png" alt = "Profile pic" width = "135" height = "67"></a>
+            <img src = "img/SEER.png" alt = "Profile pic" width = "135" height = "67">
             
 </div>
 
 <nav class="navbar navbar-default">
 	<div class="container-fluid">
 		<div class="navbar-header">
-			<a href="welcome.php" class="navbar-brand">SEERSearch</a>
+			<a href="welcome.php" class="navbar-brand">Home</a>
 		</div>
 		<div class="dropdown navbar-right" id="right">
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><?php echo $email;?>
