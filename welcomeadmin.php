@@ -83,7 +83,7 @@ if(mysqli_num_rows($result) > 0)
                 </div>
 
                 <div class="section topics">
-                    <h2 class = "section-title">SEER management</h2>
+                    <h2 class = "section-title">SEER admin management</h2>
                     <ul>
                         <li><a href ="#">Post an Article</a></li>
                         <li><a href ="#">manage Article</a></li>

@@ -5,7 +5,7 @@ require_once('connection.php');
 
 $id = $_SESSION['id'];
 $fname = $lname = $email = $radio = '';
-$sql = "SELECT * FROM tblmod WHERE ID='$id'";
+$sql = "SELECT * FROM tblan WHERE ID='$id'";
 $result = mysqli_query($conn, $sql);
 if(mysqli_num_rows($result) > 0)
 {
@@ -51,8 +51,8 @@ if(mysqli_num_rows($result) > 0)
  <div class="content clearfix">
             
             <!-- Main Content -->
-       <?php include('updateInfo.php'); ?>
-       
+           <?php include('updateInfo.php'); ?>
+         
             <div class="sidebar">
 
                 <div class="section search">
@@ -67,12 +67,10 @@ if(mysqli_num_rows($result) > 0)
                 </div>
 
                 <div class="section topics">
-                    <h2 class = "section-title">SEER moderator management</h2>
+                    <h2 class = "section-title">Analyst Management</h2>
                     <ul>
-                        <li><a href ="#">Post an Article</a></li>
-                        <li><a href ="#">manage Article queue</a></li>
-                        <li><a href ="#">My profile</a></li>
-
+                        <li><a href ="account.php">My Profile</a></li>
+                        <li><a href ="#">Manage Article</a></li>
 
                     </ul>
                 </div>
