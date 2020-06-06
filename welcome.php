@@ -4,7 +4,7 @@ include_once('header1.php');
 require_once('connection.php');
 
 $id = $_SESSION['id'];
-$fname = $lname = $email = $gender = '';
+$fname = $lname = $email = $radio = '';
 $sql = "SELECT * FROM tbluser WHERE ID='$id'";
 $result = mysqli_query($conn, $sql);
 if(mysqli_num_rows($result) > 0)
@@ -14,7 +14,7 @@ if(mysqli_num_rows($result) > 0)
 		$fname = $row["Firstname"];
 		$lname = $row["Lastname"];
 		$email = $row["Email"];
-		$gender = $row["Gender"];
+		$radio = $row["Affiliation"];
 	}
 }
 
@@ -83,10 +83,11 @@ if(mysqli_num_rows($result) > 0)
                 </div>
 
                 <div class="section topics">
-                    <h2 class = "section-title">Topics</h2>
+                    <h2 class = "section-title">User Management</h2>
                     <ul>
                         <li><a href ="#">SE Method</a></li>
                         <li><a href ="#">SE Methodology</a></li>
+                        <li><a href ="account.php">My Profile</a></li>
                         <li><a href ="#">Post an Article</a></li>
 
                     </ul>

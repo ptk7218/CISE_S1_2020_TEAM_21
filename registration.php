@@ -1,5 +1,5 @@
 <!--
-Into this file, we create a layout for registration page.
+Into this file, we create a layout for user registration page.
 -->
 <?php
 include_once('header.php');
