@@ -13,7 +13,7 @@ $email = $_POST['email'];
 $pwd = $_POST['password'];
 $password = MD5($pwd);
 
-$sql = "INSERT INTO tblmoder (username,Firstname,Lastname,Affiliation,Email,Password) VALUES ('$username','$fname','$lname','$radio','$email','$password')";
+$sql = "INSERT INTO tblmod (username,Firstname,Lastname,Affiliation,Email,Password) VALUES ('$username','$fname','$lname','$radio','$email','$password')";
 $result = mysqli_query($conn, $sql);
 if($result)
 {
