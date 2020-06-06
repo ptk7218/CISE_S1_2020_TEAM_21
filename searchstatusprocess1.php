@@ -42,7 +42,7 @@ require_once('connection.php');
     		while($row = mysqli_fetch_assoc($result)){
               echo "<div class='article-box'>
                 <h3>".$row['a_method']."</h3>
-                <p>".$row['a_author'].".,& ".$row['a_author2'].". ".$row['a_title'].". ".$row['a_journal']. ", ".
+                <p>".$row['a_author'].".,& ".$row['a_author2'].". (".$row['a_year']."). ".$row['a_title'].". ".$row['a_journal']. ", ".
                 $row['a_volume']."(".$row['a_id']."), ".$row['a_pages'].". ".$row['a_link']. "</p>
              </div>";
     	}

@@ -72,7 +72,7 @@ if(mysqli_num_rows($result) > 0)
                         <li><a href ="#">SE Method</a></li>
                         <li><a href ="#">SE Methodology</a></li>
                         <li><a href ="account.php">My Profile</a></li>
-                        <li><a href ="#">Post an Article</a></li>
+                        <li><a href ="post.php">Post an Article</a></li>
 
                     </ul>
                 </div>
