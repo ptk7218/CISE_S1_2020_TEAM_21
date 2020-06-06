@@ -1,7 +1,7 @@
 <header>
             <!-- logo -->
             <div class ="logo">
-            <li><a href="index.php"><img src = "img/SEER.png" alt = "Profile pic" width = "160" height = "85"></a></li>
+            <a href="index.php"><img src = "img/SEER.png" alt = "Profile pic" width = "135" height = "67"></a>
             
             </div>
 
@@ -20,8 +20,7 @@
                   </a>
                 <ul>
                         <li><a href="registration.php">as user</a></li>
-                        <li><a href="registrationadmin.php" >as admin</a></li>
-                        <li><a href="registrationmoder.php" >as moderator</a></li>
+                        <li><a href="http://" >as admin</a></li>
                 </ul>
                 </li>
                 <li>
@@ -32,8 +31,7 @@
                     </a>
                     <ul>
                         <li><a href="login.php">as user</a></li>
-                        <li><a href="loginadmin.php" >as admin</a></li>
-                        <li><a href="lgoinmoder.php" >as moderator</a></li>
+                        <li><a href="http://" >as admin</a></li>
                     </ul>
                 </li>
 

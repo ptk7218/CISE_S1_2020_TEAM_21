@@ -5,6 +5,10 @@ this is header file which is visible in registration and login page.
 include_once('link.php');
 
 ?>
+<div class ="logo">
+            <a href="index.php"><img src = "img/SEER.png" alt = "Profile pic" width = "135" height = "67"></a>
+            
+</div>
 
 <nav class="navbar navbar-default">
 	<div class="container-fluid">

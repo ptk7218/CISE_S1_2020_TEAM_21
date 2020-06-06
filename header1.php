@@ -5,8 +5,16 @@ this is second header file which is visible after login.
 <?php
 include_once('link.php');
 session_start();
+$username = $_SESSION['username'];
+$fname = $_SESSION['firstname'];
+$lname = $_SESSION['lastname'];
+$radio = $_SESSION['radio'];
 $email = $_SESSION['email'];
 ?>
+<div class ="logo">
+            <a href="welcome.php"><img src = "img/SEER.png" alt = "Profile pic" width = "135" height = "67"></a>
+            
+</div>
 
 <nav class="navbar navbar-default">
 	<div class="container-fluid">
