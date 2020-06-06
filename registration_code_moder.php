@@ -17,7 +17,7 @@ $sql = "INSERT INTO tblmoder (username,Firstname,Lastname,Affiliation,Email,Pass
 $result = mysqli_query($conn, $sql);
 if($result)
 {
-	header("Location: loginadmin.php");
+	header("Location: loginmoder.php");
 }
 else
 {
