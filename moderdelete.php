@@ -23,34 +23,59 @@ require_once('connection.php');
 </head>
 <body>
 <?php
+	$query = "select * from article";
 
+	$result = mysqli_query($conn, $query);
 
-    	$sql = " SELECT * FROM article ";
+	if(!$result){
+		echo "<p>Something is wrong with", $query, "</p>";
 
-    	$result = mysqli_query($conn, $sql);
-    	
-    	if (!$result) {
-            echo "<p>Something is Wrong with", $query, "</p>";            
-            }
-    	else {
-    		while($row = mysqli_fetch_assoc($result)){
-			  echo "<form action='deleteprocess.php' method='POST' role = 'form'>";
-              echo "<h3>".$row['a_method']."</h3>
-                <p>".$row['a_author'].".,& ".$row['a_author2'].". (".$row['a_year']."). ".$row['a_title'].". ".$row['a_journal']. ", ".
-                $row['a_volume']."(".$row['a_id']."), ".$row['a_pages'].". ".$row['a_link']. "</p>
-			 </div>";
-			 echo "<input type = 'checkbox' name = 'keyToDelete' value=" .$row['a_id']. "required>" ;
-			 echo "<input type = 'submit' name = 'delete' value = 'delete' class='btn btn-big'>";
-			 echo "</form>";
-    	}
-     mysqli_free_result($result);
-    }
-  mysqli_close($conn);
+	}
 ?>
+<div class = "container">
+	<table border = \"1\">
+		<tr>
+			<th>ID</th>
+			<th>Title</th>
+			<th>journal</th>
+			<th>author</th>
+			<th>second author</th>
+			<th>pages</th>
+			<th>year</th>
+			<th>volume</th>
+			<th>link</th>
+			<th>Select</th>
+			<th>Delete</th>
+		</tr>
 
+		<?php 
+		
+		while ($row = mysqli_fetch_assoc($result)) {?>
+			<tr>
+				<form action="deleteprocess.php" method = "post" role = "form">
+					<td><?php echo $row['a_id'];?></td>
+					<td><?php echo $row['a_title'];?></td>
+					<td><?php echo $row['a_journal'];?></td>
+					<td><?php echo $row['a_author'];?></td>
+					<td><?php echo $row['a_author2'];?></td>
+					<td><?php echo $row['a_pages'];?></td>
+					<td><?php echo $row['a_year'];?></td>
+					<td><?php echo $row['a_volume'];?></td>
+					<td><?php echo $row['a_link'];?></td>
+					<td>
+						<input type = "checkbox" name = "delete" value="<?php echo $row['a_id'];?>" required>
+					</td>
+					<td>
+						<input type = "submit" name = "submitDeleteBtn" class="btn btn-big">
+					</td>
+				</form>
+			</tr>
+
+		<?php } ?>
+	</table>
 </div>
 
- <?php include("includes/footer.php"); ?>
+<?php include("includes/footer.php"); ?>
 
 </body>
 </html>
