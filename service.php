@@ -23,7 +23,7 @@
 
     <h1>Service</h1>
     <p class ="Service">
-        
+     Providing access to software engineering articles.   
     </p>
  <?php include("includes/footer.php"); ?>
 
