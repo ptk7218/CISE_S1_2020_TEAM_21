@@ -1,6 +1,8 @@
 <?php
-include_once('includes/header2.php');
+include_once('link.php');
+include_once('header1.php');
 require_once('connection.php');
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
