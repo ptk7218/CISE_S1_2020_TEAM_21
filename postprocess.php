@@ -14,7 +14,7 @@ $volume = $_POST['volume'];
 $link = $_POST['link'];
 $email = $_POST['email'];
 
-$sql = "INSERT INTO tblequeue (a_title,a_author,a_author2,a_journal,a_pages,a_year, a_month, a_volume, a_link, a_email) VALUES ('$title','$author','$author2','$journal','$page','$year', '$month', '$volume', '$link', $email)";
+$sql = "INSERT INTO tblequeue (a_title,a_author,a_author2,a_journal,a_pages,a_year, a_month, a_volume, a_link, a_email) VALUES ('$title','$author','$author2','$journal','$page','$year','$month','$volume','$link','$email')";
 $result = mysqli_query($conn, $sql);
 if($result)
 {
