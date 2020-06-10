@@ -45,6 +45,9 @@
                          3. login/register system header and footer style fixed.<br>
                          4. add different management UI (depend on different roles)</p>
 
+                         <h2>10/06/2020 update: SEER version 3.1</h2>
+                         <p>1. now you can post articles into queue. (note: all roles can post articles)</p>
+
 </body>
 <?php include("includes/footer.php"); ?>       
 </html>
