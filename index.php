@@ -43,8 +43,8 @@
 
                 <div class="section search">
                     <h2 class="section-title">Search anything!</h2>
-                    <form action="searchstatusprocess1.php" method="GET">
-                        <input type="text" name="search" class="text-input" placeholder="Search...">
+                    <form action="searchstatusprocess.php" method="GET">
+                        <input type="text" name="search" class="text-input" placeholder="Search..."><br>
                         <input type="submit" value = "GO!" class="btn btn-big">
                     </form>
                     <br>

@@ -1,13 +1,15 @@
-<!-- search function at main page -->
-<?php 
+<?php
+
 include_once('includes/header2.php');
 require_once('connection.php');
+
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-     <meta charset = "UTF-8">
+    <!-- head -->
+    <head>
+        <meta charset = "UTF-8">
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content = "ie=edge">
 
@@ -19,17 +21,18 @@ require_once('connection.php');
 
         <!-- Custom Styling -->
         <link rel="stylesheet" type="text/css" href = "css/style1.css">
-        <title> Search Page </title>
-</head>
-<body>
-<h1>Search</h1>
+    </head>
+
+       <body>
+       	<h1>Search</h1>
 
 <div class="article-container">
 <?php
-    if(isset($_POST['submit-search'])){
-    	$search = $_POST['search'];
+    
+    	$search = $_GET['status'];
 
-    	$sql = " SELECT * FROM article WHERE a_title LIKE '%$search%' OR a_text LIKE '%$search%' OR a_author LIKE '%$search%' OR a_date LIKE '%$search%' ";
+    	$sql = " SELECT * FROM article WHERE a_title LIKE '$status%' ";
+
     	$result = mysqli_query($conn, $sql);
     	
     	if (!$result) {
@@ -38,20 +41,19 @@ require_once('connection.php');
     	else {
     		while($row = mysqli_fetch_assoc($result)){
               echo "<div class='article-box'>
-                <h3>".$row['a_title']."</h3>
-                <p>".$row['a_text']."</p>
-                <p>".$row['a_date']."</p>
-                <p>".$row['a_author']."</p>
-
+                <h3>".$row['a_method']."</h3>
+                <p>".$row['a_author'].".,& ".$row['a_author2'].". (".$row['a_year']."). ".$row['a_title'].". ".$row['a_journal']. ", ".
+                $row['a_volume']."(".$row['a_id']."), ".$row['a_pages'].". ".$row['a_link']. "</p>
              </div>";
     	}
      mysqli_free_result($result);
     }
-}
+  mysqli_close($conn);
 ?>
+
 </div>
 
-
+ <?php include("includes/footer.php"); ?>
 
 </body>
 </html>
