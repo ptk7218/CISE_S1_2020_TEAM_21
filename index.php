@@ -43,16 +43,17 @@
 
                 <div class="section search">
                     <h2 class="section-title">Search anything!</h2>
-                    <form action="searchstatusprocess.php" method="post">
+                    <form action="searchstatusprocess1.php" method="GET">
                         <input type="text" name="search" class="text-input" placeholder="Search...">
-                        <br>
-                        <button type="submit" name = "submit-search" class="btn btn-big">Go</button>
+                        <input type="submit" value = "GO!" class="btn btn-big">
                     </form>
+                    <br>
+                    <p><a href = "advancesearch.php">More Search option</a></p>
                 
                 </div>
 
                 <div class="section topics">
-                    <h2 class = "section-title">Topics</h2>
+                    <h2 class = "section-title">Research</h2>
                     <ul>
                         <li><a href ="#">SE Method</a></li>
                         <li><a href ="#">SE Methodology</a></li>
