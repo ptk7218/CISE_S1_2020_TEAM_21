@@ -25,7 +25,7 @@ require_once('connection.php');
 </head>
 <body>
 <?php
-	$query = "select * from article";
+	$query = "select * from queuearticle";
 
 	$result = mysqli_query($conn, $query);
 

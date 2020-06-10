@@ -70,10 +70,11 @@ if(mysqli_num_rows($result) > 0)
                     <h2 class = "section-title">SEER admin management</h2>
                     <ul>
                         <li><a href ="post.php">Post an Article</a></li>
-                        <li><a href ="#">manage Article</a></li>
-                        <li><a href ="#">manage User</a></li>
-                        <li><a href ="#">manage moderators</a></li>
-                        <li><a href ="#">manage analysts</a></li>
+                        <li><a href ="#">Manage Posted Article</a></li>
+                        <li><a href ="moderdelete.php">Manage Queue Article</a></li>
+                        <li><a href ="#">Manage User</a></li>
+                        <li><a href ="#">Manage Moderators</a></li>
+                        <li><a href ="#">Manage Analysts</a></li>
 
 
 
