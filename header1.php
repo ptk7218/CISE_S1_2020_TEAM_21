@@ -13,14 +13,12 @@ $email = $_SESSION['email'];
 ?>
 
 
-
+<header>
 <nav class="navbar navbar-default">
 
 <div class ="logo">
-            <img src = "img/SEER.png" alt = "Profile pic" width = "135" height = "67">
-            
-</div>
-		
+ <img src = "img/SEER.png" alt = "Profile pic" width = "135" height = "67">           
+</div>		
 <div class="dropdown navbar-right" id="right">
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><?php echo $email;?>
   <span class="caret"></span></button>
@@ -31,3 +29,4 @@ $email = $_SESSION['email'];
 </div>
 	</div>
 </nav>
+</header>
