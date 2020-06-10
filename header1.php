@@ -22,7 +22,7 @@ $email = $_SESSION['email'];
 </div>
 		
 <div class="dropdown navbar-right" id="right">
-  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><?php echo $username;?>
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><?php echo $email;?>
   <span class="caret"></span></button>
   <ul class="dropdown-menu">
   	<li><a href="account.php">Account</a></li>
