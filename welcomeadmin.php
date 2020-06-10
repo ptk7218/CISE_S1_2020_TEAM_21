@@ -72,7 +72,7 @@ if(mysqli_num_rows($result) > 0)
                         <li><a href ="post.php">Post an Article</a></li>
                         <li><a href ="#">Manage Posted Article</a></li>
                         <li><a href ="moderdelete.php">Manage Queue Article</a></li>
-                        <li><a href ="#">Manage User</a></li>
+                        <li><a href ="manageuser.php">Manage User</a></li>
                         <li><a href ="#">Manage Moderators</a></li>
                         <li><a href ="#">Manage Analysts</a></li>
 
