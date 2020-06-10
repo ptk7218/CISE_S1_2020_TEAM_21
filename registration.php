@@ -35,39 +35,39 @@ include_once('includes/header2.php');
 <div class="form-group">
     <label class="control-label col-sm-2" for="username">Username:</label>
     <div class="col-sm-6">
-      <input type="text" name="username" class="form-control" id="username" placeholder="Enter username">
+      <input type="text" name="username" class="form-control" id="username" placeholder="Enter username" required>
     </div>
   </div>
 
 	<div class="form-group">
     <label class="control-label col-sm-2" for="firstname">First Name:</label>
     <div class="col-sm-6">
-      <input type="text" name="firstname" class="form-control" id="firstname" placeholder="Enter Firstname">
+      <input type="text" name="firstname" class="form-control" id="firstname" placeholder="Enter Firstname" required>
     </div>
   </div>
   <div class="form-group">
     <label class="control-label col-sm-2" for="lastname">Last Name:</label>
     <div class="col-sm-6">
-      <input type="text" name="lastname" class="form-control" id="lastname" placeholder="Enter Lastname">
+      <input type="text" name="lastname" class="form-control" id="lastname" placeholder="Enter Lastname" required>
     </div>
   </div>
   <div class="form-group">
     <label class="control-label col-sm-2" for="lastname">Affiliation:</label>
     <div class="col-sm-6">
-      <label class="radio-inline"><input type="radio" name="radio" value="institution">institution</label>
-	  <label class="radio-inline"><input type="radio" name="radio" value="Organization">Organization</label>
+      <label class="radio-inline"><input type="radio" name="radio" value="institution" required>institution</label>
+	  <label class="radio-inline"><input type="radio" name="radio" value="Organization" required>Organization</label>
     </div>
   </div>
   <div class="form-group">
     <label class="control-label col-sm-2" for="email">Email:</label>
     <div class="col-sm-6">
-      <input type="email" name="email" class="form-control" id="email" placeholder="Enter email">
+      <input type="email" name="email" class="form-control" id="email" placeholder="Enter email" required>
     </div>
   </div>
   <div class="form-group">
     <label class="control-label col-sm-2" for="pwd">Password:</label>
     <div class="col-sm-6"> 
-      <input type="password" name="password" class="form-control" id="pwd" placeholder="Enter password">
+      <input type="password" name="password" class="form-control" id="pwd" placeholder="Enter password" required>
     </div>
   </div>
   <div class="form-group"> 
