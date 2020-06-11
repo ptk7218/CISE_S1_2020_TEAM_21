@@ -10,7 +10,8 @@
 
                          10/06/2020 update: SEER version 3.1
                          1. now you can post articles into queue. (note: all roles can post articles)
-                         
+                         2. add droptable, when delete article, the data will send to reject article database.
+                         3. fix all role register/login system.
                          </p>
                          <a href = "updatehistory.php" class="btn read-more">Update History</a>
                      </div>

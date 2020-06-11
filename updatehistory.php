@@ -47,6 +47,9 @@
 
                          <h2>10/06/2020 update: SEER version 3.1</h2>
                          <p>1. now you can post articles into queue. (note: all roles can post articles)</p>
+                         <p>2. add droptable, when delete article, the data will send to reject article database.</p>
+                         <p>3. fix all role register/login system.</p>
+                         
 
 </body>
 <?php include("includes/footer.php"); ?>       
