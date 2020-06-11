@@ -43,7 +43,8 @@ if(isset($_POST['submitDeleteBtn'])){
          echo "<p>not deletd</p>";
      }
      else{
-        echo "<p>your record is deleted !";
+        $sql3 = "DELETE FROM article where a_id = '$key'";
+        echo "<p>your record is deleted!</p>";
      }
     }
 }
