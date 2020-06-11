@@ -60,7 +60,7 @@ require_once('connection.php');
 					<td><?php echo $row['a_journal'];?></td>
 					<td><?php echo $row['a_author'];?></td>
 					<td><?php echo $row['a_author2'];?></td>
-					<td><?php echo $row['a_pages'];?></td>
+					<td><?php echo $row['a_page'];?></td>
 					<td><?php echo $row['a_year'];?></td>
 					<td><?php echo $row['a_volume'];?></td>
 					<td><?php echo $row['a_link'];?></td>
