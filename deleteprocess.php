@@ -26,20 +26,21 @@ require_once('connection.php');
 if(isset($_POST['submitDeleteBtn'])){
     $key = $_POST['keyToDelete'];
 
-    $sql = "SELECT * from article where a_id = '$key'";
+    $sql = "SELECT * from queuearticle INSERT INTO tbldrop ('a_id','a_title','a_author','a_author2','a_journal','a_page','a_year','a_month','a_date','a_volume','a_link','a_email') where a_id = '$key'";
 
     $check = mysqli_query($conn,$sql);
     if(!$check) {
         echo "<p>not found";
     }else{
-    $sql2="DELETE FROM article where a_id = '$key'";
+    
+    $sql2="DELETE FROM queuearticle where a_id = '$key'";
 
     $del = mysqli_query($conn,$sql2);
      if(!$del) {
          echo "<p>not deletd</p>";
      }
      else{
-         echo "<p>record deleted!!</p>";
+        echo "<p>your record is deleted !";
      }
     }
 }
