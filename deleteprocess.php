@@ -32,21 +32,22 @@ if(isset($_POST['submitDeleteBtn'])){
 
     if(!$check) {
         echo "<p>not found";
-    }else{
+       }else{
     
     $sql2 = "INSERT INTO tbldrop (a_id,a_title,a_author,a_author2,a_journal,a_page,a_year,a_month,a_date,a_volume,a_link,a_email) 
     SELECT a_id,a_title,a_author,a_author2,a_journal,a_page,a_year,a_month,a_date,a_volume,a_link,a_email FROM queuearticle
     WHERE a_id = '$key'";
 
-    $del = mysqli_query($conn,$sql2);
-     if(!$del) {
-         echo "<p>not deletd</p>";
-     }
-     else{
-        $sql3 = "DELETE FROM article where a_id = '$key'";
-        $del1 = mysqli_query($conn, $sql);
-        echo "<p>your record is deleted!</p>";
-     }
+          $del = mysqli_query($conn,$sql2);
+          if(!$del) {
+             echo "<p>not deletd</p>";
+           }
+            else{
+             
+              $sql3 = "DELETE FROM article where a_id = '$key'";
+              $del1 = mysqli_query($conn, $sql3);
+               echo "<p>your record is deleted!</p>";
+            }
     }
 }
 ?>
