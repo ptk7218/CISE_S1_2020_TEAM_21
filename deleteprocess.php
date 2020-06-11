@@ -44,6 +44,7 @@ if(isset($_POST['submitDeleteBtn'])){
      }
      else{
         $sql3 = "DELETE FROM article where a_id = '$key'";
+        $del1 = mysqli_query($conn, $sql);
         echo "<p>your record is deleted!</p>";
      }
     }
